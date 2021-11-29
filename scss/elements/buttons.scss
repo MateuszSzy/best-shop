@@ -1,0 +1,19 @@
+.btn {
+  color: $color-white;
+  border: none;
+  padding: 22px 62px;
+  display: inline-block;
+  border-radius: $button-radius;
+  font-family: $font-open-sans;
+  font-weight: 800;
+
+  &__opening {
+    background-color: $color-primary;
+    border-radius: $button-radius;
+    box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
+  }
+
+  &--large {
+    padding: 22px 157px;
+  }
+}
